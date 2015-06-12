@@ -1,0 +1,32 @@
+Library
+Temp
+*.apk
+*.orig
+obj/Debug
+*.sln
+*.suo
+Bin
+*.orig.*
+Assembly-CSharp-Editor-vs.csproj
+Assembly-CSharp-Editor.csproj
+Assembly-CSharp-vs.csproj
+Assembly-CSharp.csproj
+OS Projects/Android/CustomUnityProject/bin
+OS Projects/Android/CustomUnityProject/gen
+Assembly-UnityScript-vs.unityproj
+Assembly-UnityScript.unityproj
+Assembly-CSharp-firstpass-vs.csproj
+Assembly-CSharp-firstpass.csproj
+Assembly-UnityScript-Editor-vs.unityproj
+Assembly-UnityScript-Editor.unityproj
+Assembly-UnityScript-firstpass-vs.unityproj
+Assembly-UnityScript-firstpass.unityproj
+OS Projects/Android/google-play-services_lib/bin
+lint.xml
+Assets/gmcs.rsp
+Assets/gmcs.rsp.meta
+Assets/smcs.rsp
+Assets/smcs.rsp.meta
+Bin
+[Tt]humbs.db
+[Tt]humbs.db.meta
