@@ -65,6 +65,7 @@
     <Compile Include="Assets\BlackRoom\BlackRoomLight.cs" />
     <Compile Include="Assets\BlackRoom\BlackRoomObject.cs" />
     <Compile Include="Assets\BlackRoom\BlackRoomObjectSpawner.cs" />
+    <Compile Include="Assets\BlackRoom\BlackRoomParticles.cs" />
     <Compile Include="Assets\BlackRoom\BlackRoomTargetLooker.cs" />
     <Compile Include="Assets\BlackRoom\Perlin.cs" />
   </ItemGroup>
