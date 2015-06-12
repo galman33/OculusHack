@@ -42,6 +42,10 @@ public class StripeWallAnim : MonoBehaviour {
 		yield return new WaitForSeconds(DelayTime);
 
 		yield return StartCoroutine(FadeOut());
+
+		yield return new WaitForSeconds(DelayTime);
+
+		Application.LoadLevel(Application.loadedLevel + 1);
 	}
 
 	private IEnumerator FadeIn()

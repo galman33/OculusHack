@@ -3,6 +3,8 @@ using System.Collections;
 
 public class BlackRoomTargetLooker : MonoBehaviour {
 
+	public Camera[] Cameras;
+
 	public Transform Target;
 
 	public float LookingVec;
@@ -39,7 +41,9 @@ public class BlackRoomTargetLooker : MonoBehaviour {
 
 		RenderSettings.fogDensity = Mathf.Lerp(0, 100, fillment);
 
-		GetComponent<Camera>().backgroundColor = new Color(fillment, fillment, fillment, 1);
+//		GetComponent<Camera>().backgroundColor = new Color(fillment, fillment, fillment, 1);
+		foreach(var cam in Cameras)
+			cam.backgroundColor = new Color(fillment, fillment, fillment, 1);
 
 		if (fillment >= 1)
 			Application.LoadLevel(Application.loadedLevel + 1);
