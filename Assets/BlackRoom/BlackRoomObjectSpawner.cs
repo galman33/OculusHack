@@ -18,7 +18,8 @@ public class BlackRoomObjectSpawner : MonoBehaviour {
 		while(true)
 		{
 			yield return new WaitForSeconds(Random.Range(MinSpawnTime, MaxSpawnTime));
-			Instantiate(ToSpawn);
+			var lel = Instantiate(ToSpawn);
+			lel.transform.parent = transform;
 		}
 	}
 	
