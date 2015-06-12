@@ -43,7 +43,7 @@ public class StripeWallAnim : MonoBehaviour {
 
 		yield return StartCoroutine(FadeOut());
 
-		yield return new WaitForSeconds(DelayTime);
+		yield return new WaitForSeconds(DelayTime * 0.5f);
 
 		Application.LoadLevel(Application.loadedLevel + 1);
 	}
