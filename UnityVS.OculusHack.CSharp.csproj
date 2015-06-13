@@ -150,8 +150,10 @@
     <Compile Include="Assets\Alon&apos;s Assets\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\Alon&apos;s Assets\Standard Assets\Utility\WaypointProgressTracker.cs" />
     <Compile Include="Assets\Alon&apos;s Assets\Street\StreetPlayer.cs" />
-    <Compile Include="Assets\Alon&apos;s Assets\Underwater\Fish\Fishy.cs" />
-    <Compile Include="Assets\Alon&apos;s Assets\Underwater\Fish\MoveToObject.cs" />
+    <Compile Include="Assets\Alon&apos;s Assets\Underwater\UnderWatreMovement.cs" />
+    <Compile Include="Assets\Alon&apos;s Assets\Underwater\fishy\Fishy.cs" />
+    <Compile Include="Assets\Alon&apos;s Assets\Underwater\fishy\MoveFishy.cs" />
+    <Compile Include="Assets\Alon&apos;s Assets\Underwater\fishy\MoveToObject.cs" />
     <Compile Include="Assets\BlackRoom\BlackRoomLight.cs" />
     <Compile Include="Assets\BlackRoom\BlackRoomObject.cs" />
     <Compile Include="Assets\BlackRoom\BlackRoomObjectSpawner.cs" />
@@ -191,6 +193,7 @@
     <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
     <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
     <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
+    <Compile Include="Assets\StreetSceneChanger.cs" />
     <Compile Include="Assets\StripesRoom\StripeWallAnim.cs" />
   </ItemGroup>
   <ItemGroup>
